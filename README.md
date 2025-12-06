@@ -26,12 +26,15 @@ MyToken is a simple ERC-20 compatible token built on Ethereum for learning purpo
 
 ## How to Use
 ### Check Balance
-```solidity
-balanceOf("0x5B38Da6a701c568545dCfcB03FcB875f56beddC4") → returns 999994000000000000000000
 
+balanceOf("0x5B38Da6a701c568545dCfcB03FcB875f56beddC4") → returns 1000000000000000000000000
+
+### Check Balance
 transfer("0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2", 1000000000000000000) → returns true
 
+### Check Balance
 approve("0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2", 5000000000000000000) → returns true
 
+### Check Balance
 transferFrom("0x5B38Da6a701c568545dCfcB03FcB875f56beddC4", "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db", 5000000000000000000) → returns true
 
